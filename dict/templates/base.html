@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<title>{% block title %}{%endblock%} title </title>
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+<section class="container">
+    <section class="title">
+        <h1 id="heading">{% block header %}{% endblock %}</h1>
+        <section class="subbox">
+            <button type="button", class ="box", id ="Home"> <span>Home</span></button>
+            <button type="button". class="box", id="Add/Edit"><span>Add/Edit</span></button>
+            <button type="button", class="box", id="Flashcards"><span>Flashcards</span></button>
+        </section>
+    </section>
+    <section class="content">
+
+    </section>
+</section>

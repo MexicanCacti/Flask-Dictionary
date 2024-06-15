@@ -1,0 +1,43 @@
+body{background-color:black}
+
+.container{display:grid;margin:auto;grid-template-rows:10% 10% 70% 10%;grid-gap:0px;
+grid-template-areas:
+    "mm"
+    "sb"
+    "ct"
+    "ft";}
+
+.title{font-family:'Times New Roman';color:black;}
+
+.subbox{display:flex;justify-content: space-between;flex-direction:row;grid-area:sb}
+
+.box {width:10%;height:10%;background-color: whitesmoke;}
+
+.subbox > button{
+    border-radius: 20px;
+    transition-duration:0.4s;
+    cursor:pointer;
+}
+
+.subbox > button:hover{
+    background-color:black;
+    color:white; 
+}
+
+#heading{
+    grid-area:mm;
+    background-color: whitesmoke;
+    text-align:center
+}
+
+#Home{
+
+}
+
+#Add\/Edit{
+
+}
+
+#Flashcards{
+
+}
